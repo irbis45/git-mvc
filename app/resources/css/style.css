@@ -1,0 +1,125 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a:link, a:visited {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	color: #bd5a35;
+	text-decoration: underline;
+}
+
+.upload-file-container {
+	position: relative;
+	width: 100px;
+	height: 137px;
+	overflow: hidden;
+	background: url(http://i.imgur.com/AeUEdJb.png) top center no-repeat;
+	float: left;
+	margin-left: 23px;
+}
+
+.upload-file-container:first-child {
+	margin-left: 0;
+}
+
+.upload-file-container > img {
+	width: 93px;
+	height: 93px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.upload-file-container-text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #719d2b;
+	line-height: 17px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100px;
+	height: 35px;
+}
+
+.upload-file-container-text > span {
+	border-bottom: 1px solid #719d2b;
+	cursor: pointer;
+}
+
+.upload-file-container input {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 1px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 70px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.image-preview {
+	text-align: center;
+}
+
+.preview-img {
+	max-width: 300px;
+	margin-top: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+.task-image img {
+	width: 100px;
+	height: 100px;
+}
+
+.custom-a-btn {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.custom-a-btn:hover {
+	text-decoration: underline;
+	color: #bd5a35;
+}
+
+.custom-a-btn:active, .custom-a-btn:focus {
+	outline: none;
+}

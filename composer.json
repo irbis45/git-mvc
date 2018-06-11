@@ -1,0 +1,20 @@
+{
+    "name": "BeeJee",
+    "type": "project",
+    "description": "BeeJee Test",
+    "keywords": ["todo", "mvc", "php", "mysql"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frano Barać",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php": ">=7.1.6",
+        "ircmaxell/password-compat": "~1.0.3",
+        "raveren/kint": "dev-master",
+        "squizlabs/php_codesniffer": "2.*",
+        "gumlet/php-image-resize": "1.8.*"
+    }
+}
